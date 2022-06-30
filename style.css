@@ -275,7 +275,7 @@ letter-spacing: 1px;
   margin-right: 40px;
   margin-left: 40px;
   text-align: center;
-  height: 750px;
+  height: 800px;
 }
 
 .about-column-25 {
@@ -330,7 +330,7 @@ letter-spacing: 1px;
   margin-right: 40px;
   margin-left: 40px;
   text-align: center;
-  height: 750px;
+  height: 800px;
 }
 
 .home-column-25 {
@@ -347,7 +347,7 @@ letter-spacing: 1px;
 }
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1350px) {
   .home-column-25 {
     width: 100%;
   }
@@ -356,4 +356,9 @@ letter-spacing: 1px;
     margin-bottom: 150px;
     text-align: center;
   }
+}
+
+a {
+  text-decoration: none;
+  padding: 8px 8px 8px 8px;
 }
